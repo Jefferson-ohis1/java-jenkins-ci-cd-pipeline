@@ -63,11 +63,9 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 
 ## Step 3: Launch Jenkins Server on AWS EC2: Create an AWS EC2 instance to host Jenkins.
 - Security Group Configuration
-| Type        | Port          |
-| :-          | :-            |
-| SSH         | 22            |
-| HTTP        | 80            |
-| CUSTOME TCP | 8080(Jenkins) |
+  - SSH PORT: 22
+  - HTTP PORT: 80
+  - CUSTOM TCP(JENKINS): 8080
 
 ## Step 4: Connect to Jenkins Server
 - SSH into the EC2 instance using the .PEM key
