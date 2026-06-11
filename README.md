@@ -269,6 +269,39 @@ sudo apt install -y openjdk-17-jdk
 - Result:
  - Finished: SUCCESS
 
+ ---
+ # Screenshots
+ 
+ ## Jenkins pipepline success page
+
+ ![Jenkins pipeline success](screenshots/Jenkin pipeline success page.png)
+ 
+ ---
+
+ ## Jenkins stage view page
+
+ ![Jenkins stage view](screenshots/Jenkins stage view page.png)
+
+ ---
+
+ ## Docker Hub Repository
+
+ ![Docker Hub:My Hub](screenshots/Docker-Hub-java-image-repo-MY-HUB.png)
+
+---
+
+## AWS Jenkins server dashboard
+
+![AWS Jenkins-server dashboard](screenshots/AWS Jenkins-server dashboard.png)
+
+---
+
+## AWS Jenkins server security group configuration
+
+![AWS Jenkin-server SG config](screenshots/AWS Jenkins-server SG config.png)
+
+---
+
 # Key Skills Demonstrated
 - Jenkins CI/CD Pipeline Configuration
 - AWS EC2 Administration
